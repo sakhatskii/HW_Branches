@@ -1,0 +1,12 @@
+Summary              в корзине не отображется добавленный в нее товар
+Project              Coffeshop site
+Version              MacOS El Capitan 10.11.6
+Severity             Cricical
+Priority             High
+Status               open
+Author               Sakhatskii
+Assigned to          Ksendzov
+Step to reproduce    1. добавить товар в козину 2. перейти в корзину
+Result               товара в корзине нет
+Expected result      в корзине выбранный товар
+Attachment
