@@ -19,14 +19,14 @@
 10. Синхронизировать Внешнюю и Локальную ветки Main
 
 Основные команды:
-Создать локальную ветку —> git branch NAME..
-Перейти в ветку —> git checkout NAM.
-Создать и перейти —> git checkout -b NAME
-Посмотреть все ветки —> git branch
-Смержить ветки (объединить ветки/файлы) (main): git merge NAME
-Смержить после коммита в ветке (main): git merge NAME -m «comment»
-CONFLICT. Нужно зарезолвить —> Vim (резолвим) —> git commit -am «__»
-Добавить локальные ветки на внешний репозиторий —> git push -u origin NAME
 
-На внешнем репозитории  —> merge pull request
+- Создать локальную ветку —> git branch NAME
+- Перейти в ветку —> git checkout NAM.
+- Создать и перейти —> git checkout -b NAME
+- Посмотреть все ветки —> git branch
+- Смержить ветки (объединить ветки/файлы) (main): git merge NAME
+- Смержить после коммита в ветке (main): git merge NAME -m «comment»
+- CONFLICT. Нужно зарезолвить —> Vim (резолвим) —> git commit -am «__»
+- Добавить локальные ветки на внешний репозиторий —> git push -u origin NAME
+- На внешнем репозитории  —> merge pull request
 
