@@ -17,3 +17,16 @@
 8. Запушить структуру на внешний репозиторий
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
 10. Синхронизировать Внешнюю и Локальную ветки Main
+
+Основные команды:
+Создать локальную ветку —> git branch NAME
+Перейти в ветку —> git checkout NAME
+Создать и перейти —> git checkout -b NAME
+Посмотреть все ветки —> git branch
+Смержить ветки (объединить ветки/файлы) (main): git merge NAME
+Смержить после коммита в ветке (main): git merge NAME -m «comment»
+CONFLICT. Нужно зарезолвить —> Vim (резолвим) —> git commit -am «__»
+Добавить локальные ветки на внешний репозиторий —> git push -u origin NAME
+
+На внешнем репозитории  —> merge pull request
+
