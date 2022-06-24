@@ -22,7 +22,7 @@ Homework branches
 Основные команды:
 
 - Создать локальную ветку —> git branch NAME
-- Перейти в ветку —> git checkout NAM.
+- Перейти в ветку —> git checkout NAMe
 - Создать и перейти —> git checkout -b NAME
 - Посмотреть все ветки —> git branch
 - Смержить ветки (объединить ветки/файлы) (main): git merge NAME
